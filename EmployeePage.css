@@ -1,0 +1,44 @@
+/* EmployeePage.css */
+.employee-page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #f9f9f9;
+  }
+  
+  .employee-page-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .employee-page-container header h1 {
+    margin: 0;
+  }
+  
+  .employee-page-container nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .employee-page-container nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .employee-page-container main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .make-request-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  

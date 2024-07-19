@@ -1,0 +1,48 @@
+.view-requests-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-requests-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .requests-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .request-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .request-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .request-type {
+    font-weight: bold;
+  }
+  
+  .request-date {
+    color: #666;
+  }
+  
+  .request-description {
+    font-size: 16px;
+    color: #444;
+  }
+  
